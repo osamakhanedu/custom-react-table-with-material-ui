@@ -104,7 +104,7 @@ const EnhancedTable = ({
     setPageSize,
     preGlobalFilteredRows,
     setGlobalFilter,
-    state: { pageIndex, pageSize, selectedRowIds, globalFilter }
+    state: { pageIndex, pageSize, globalFilter }
   } = useTable(
     {
       columns,
